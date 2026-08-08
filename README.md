@@ -388,6 +388,8 @@ La integración continua se encarga de validar calidad, pruebas y empaquetado en
 4. Ejecuta `ruff check` y `pytest` localmente.
 5. Envía un **Pull Request** describiendo el cambio con el template del repo.
 
+Todas las contribuciones están sujetas al [Código de Conducta](CODE_OF_CONDUCT.md).
+
 ---
 
 ## Licencia
