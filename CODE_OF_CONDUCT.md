@@ -1,12 +1,12 @@
 # Código de Conducta convenido para Contribuyentes
 
-## Nuestro compromiso
+## Nuestro Compromiso
 
 Nosotros, como miembros, contribuyentes y administradores nos comprometemos a hacer de la participación en nuestra comunidad sea una experiencia libre de acoso para todo el mundo, independientemente de la edad, dimensión corporal, discapacidad visible o invisible, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, nivel socio-económico, nacionalidad, apariencia personal, raza, casta, color, religión, o identidad u orientación sexual.
 
 Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y sana.
 
-## Nuestros estándares
+## Nuestros Estándares
 
 Ejemplos de comportamiento que contribuyen a crear un ambiente positivo para nuestra comunidad:
 
@@ -24,7 +24,7 @@ Ejemplos de comportamiento inaceptable:
 -   Publicar información privada de otras personas, tales como direcciones físicas o de correo electrónico, sin su permiso explícito
 -   Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un entorno profesional
 
-## Aplicación de las responsabilidades
+## Responsabilidades de Aplicación
 
 Los administradores de la comunidad son las responsables de clarificar y hacer cumplir los estándares de comportamiento aceptable y tomarán acciones correctivas apropiadas y justas en respuesta a cualquier comportamiento que consideren inapropiado, amenazante, ofensivo o dañino.
 
@@ -40,7 +40,7 @@ Instancias de comportamiento abusivo, acosador y otras instancias de acoso podr�
 
 Todos los administradores de la comunidad están obligados a respetar la privacidad y la seguridad de la persona que reporte un incidente.
 
-## Guías de aplicación
+## Directrices de Aplicación
 
 Los administradores de la comunidad seguirán estas guías de impacto en la comunidad para determinar las consecuencias para cualquier acción que juzguen como un comportamiento de violación de este Código de Conducta:
 
