@@ -392,7 +392,7 @@ La integración continua se encarga de validar calidad, pruebas y empaquetado en
 
 ## Licencia
 
-MIT License — ver archivo `LICENSE`. Libre de uso educativo y comercial.
+**Apache License 2.0** — ver archivo [`LICENSE`](LICENSE). Libre de uso educativo y comercial, con los términos habituales de Apache para patentes, marcas y garantías.
 
 ---
 
