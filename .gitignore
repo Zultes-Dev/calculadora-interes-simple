@@ -1,0 +1,30 @@
+# Dependencias
+*.py[cod]
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Datos y logs
+data/*.db
+data/*.json
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archivos sensibles / auxiliares
+.env
+*.env
+dist/
+build/
+*.exe
