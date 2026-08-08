@@ -1,44 +1,40 @@
-# Guía de Contribución
+# Contributing Guide
 
-¡Gracias por tu interés en contribuir a **Calculadora de Interés Simple**!
+Thank you for your interest in contributing to **Simple Interest Calculator**!
 
-**Se aceptan todas las contribuciones**: informes de errores (*bug reports*), correcciones de errores (*bug fixes*), mejoras en la documentación, mejoras (*enhancements*) e ideas.
-
----
-
-## ¿Cómo contribuir?
-
-Todas las contribuciones son bienvenidas, sin importar el tamaño. Las formas más habituales de participar son:
-
-- **Informes de errores**: reporta bugs con un *issue* claro y reproducible.
-- **Correcciones de errores**: envía un *Pull Request* que solucione un bug reportado o conocido.
-- **Mejoras en la documentación**: corrige, amplía o aclara el README, comentarios del código y guías.
-- **Mejoras de funcionalidad**: implementa una nueva capacidad (conversión de tasas, historial, etc.).
-- **Ideas**: propón nuevas características, mejoras de usabilidad o de la experiencia de usuario.
+**We accept all contributions:** bug reports, bug fixes, documentation improvements, enhancements, and ideas.
 
 ---
 
-## Reportar un error
+## How to contribute?
 
-Antes de abrir un *issue*:
+All contributions are welcome, regardless of size. The most common ways to participate are:
 
-1. Busca si el problema ya fue reportado.
-2. Indica la **versión de Python**, el **sistema operativo** y los pasos para **reproducir** el error.
-3. Incluye el resultado esperado y el resultado obtenido.
+- **Bug reports**: report issues with a clear, reproducible problem description.
+- **Bug fixes**: submit a Pull Request that fixes a reported or known bug.
+- **Documentation improvements**: correct, expand, or clarify the README, code comments, and guides.
+- **Enhancements**: implement a new capability (rate conversion, history, etc.).
+- **Ideas**: propose new features, usability improvements, or changes to the user experience.
 
----
+## Reporting a bug
 
-## Flujo de trabajo para código
+Before opening an issue:
 
-1. Realiza un `fork` del repositorio.
-2. Crea una rama con un nombre descriptivo:
+1. Search for the issue to see if it has already been reported.
+2. Include the **Python version**, the **operating system**, and the steps to **reproduce** the problem.
+3. Include the expected result and the actual result.
+
+## Contribution workflow (code)
+
+1. Fork the repository.
+2. Create a branch with a descriptive name:
 
    ```bash
-   git checkout -b fix/123-error-interes
+   git checkout -b fix/123-interest-error
    ```
 
-3. Escribe o actualiza los **tests** de tu cambio en `tests/`.
-4. Ejecuta las herramientas de calidad antes de enviar:
+3. Write or update **tests** for your change in `tests/`.
+4. Run the quality checks before submitting:
 
    ```bash
    ruff check .
@@ -46,23 +42,19 @@ Antes de abrir un *issue*:
    pytest -v
    ```
 
-5. Envía un **Pull Request** hacia la rama `main` describiendo el cambio realizado.
+5. Submit a **Pull Request** to the `main` branch describing the change.
 
-> Recuerda que al contribuir se aplica el [Código de Conducta](CODE_OF_CONDUCT.md).
+> Remember that all contributions are subject to the [Code_of_Conduct](CODE_OF_CONDUCT.md).
 
----
+## Coding standards
 
-## Estándares de código
+- Keep the **domain logic** (financial calculations) decoupled from the graphical interface.
+- Variable and function names in **English**; user messages in **Spanish**.
+- Docstrings following **PEP 257** and code compliant with the **ruff** rules.
+- Keep the history clean: one logical change per commit.
 
-- Mantén la **lógica de dominio** (cálculos financieros) desacoplada de la interfaz gráfica.
-- Nombres de variables y funciones en **inglés**; mensajes de usuario en **español**.
-- Docstrings según **PEP 257** y código conforme a las reglas de **ruff**.
-- Mantén el historial limpio: un cambio lógico por *commit*.
+## Reviewing contributions
 
----
+The maintainer will review your contribution and may request adjustments. Review is part of the process: be open to feedback and friendly when responding.
 
-## Revisión de contribuciones
-
-El mantenedor revisará tu contribución y podrá solicitar ajustes. La revisión forma parte del proceso: sé abierto a los comentarios y amable al responder.
-
-¡Gracias por hacer crecer este proyecto!
+Thank you for helping this project grow!
