@@ -205,8 +205,8 @@ proyecto-final-git/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/Zultes-Dev/calculadora-interes-simple.git
-cd "calculadora-interes-simple"
+git clone https://github.com/Zultes-Dev/github-final-project.git
+cd "github-final-project"
 
 # 2. (Opcional) Crear y activar un entorno virtual
 python -m venv .venv
@@ -402,7 +402,7 @@ Todas las contribuciones están sujetas al [Código de Conducta](CODE_OF_CONDUCT
 
 - **Autor principal:** Zultes-Dev
 - **Curso / materia:** Proyecto Final — Ingeniería, Cálculo Financiero
-- **Repositorio:** https://github.com/Zultes-Dev/calculadora-interes-simple
+- **Repositorio:** https://github.com/Zultes-Dev/github-final-project
 - **Correo:** (completar)
 - **Docentes / revisores:** (completar)
 
