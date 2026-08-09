@@ -1,39 +1,37 @@
-# Contributing Guide
+# Contributing Guide / Guía de Contribución
 
-Thank you for your interest in contributing to **Simple Interest Calculator**!
+## Se aceptan todas las contribuciones, informes de errores, correcciones de errores, mejoras en la documentación, mejoras y ideas.
 
-**We accept all contributions:** bug reports, bug fixes, documentation improvements, enhancements, and ideas.
+*All contributions are accepted: bug reports, bug fixes, documentation improvements, enhancements, and ideas.*
 
 ---
 
-## How to contribute?
+## How to contribute / Cómo contribuir
 
-All contributions are welcome, regardless of size. The most common ways to participate are:
+Todas las contribuciones son bienvenidas, sin importar el tamaño. Las formas habituales de participar son:
 
-- **Bug reports**: report issues with a clear, reproducible problem description.
-- **Bug fixes**: submit a Pull Request that fixes a reported or known bug.
-- **Documentation improvements**: correct, expand, or clarify the README, code comments, and guides.
-- **Enhancements**: implement a new capability (rate conversion, history, etc.).
-- **Ideas**: propose new features, usability improvements, or changes to the user experience.
+- **Informes de errores (bug reports)**: reporta bugs con un *issue* claro y reproducible.
+- **Correcciones de errores (bug fixes)**: resuelve errores reportados o conocidos.
+- **Mejoras en la documentación (documentation improvements)**: corrige, amplía o aclara el README, comentarios y guías.
+- **Mejoras (enhancements)**: implementa nuevas funcionalidades.
+- **Ideas**: propón nuevas características o mejoras de usabilidad.
 
 ## Reporting a bug
 
-Before opening an issue:
-
-1. Search for the issue to see if it has already been reported.
+1. Search if the issue was already reported.
 2. Include the **Python version**, the **operating system**, and the steps to **reproduce** the problem.
 3. Include the expected result and the actual result.
 
 ## Contribution workflow (code)
 
 1. Fork the repository.
-2. Create a branch with a descriptive name:
+2. Create a descriptive branch:
 
    ```bash
    git checkout -b fix/123-interest-error
    ```
 
-3. Write or update **tests** for your change in `tests/`.
+3. Write or update **tests** in `tests/`.
 4. Run the quality checks before submitting:
 
    ```bash
@@ -44,17 +42,17 @@ Before opening an issue:
 
 5. Submit a **Pull Request** to the `main` branch describing the change.
 
-> Remember that all contributions are subject to the [Code_of_Conduct](CODE_OF_CONDUCT.md).
+> All contributions are subject to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Coding standards
 
-- Keep the **domain logic** (financial calculations) decoupled from the graphical interface.
+- Keep the **domain logic** (financial calculations) decoupled from the GUI.
 - Variable and function names in **English**; user messages in **Spanish**.
-- Docstrings following **PEP 257** and code compliant with the **ruff** rules.
-- Keep the history clean: one logical change per commit.
+- Docstrings following **PEP 257** and code compliant with **ruff**.
+- One logical change per commit.
 
 ## Reviewing contributions
 
-The maintainer will review your contribution and may request adjustments. Review is part of the process: be open to feedback and friendly when responding.
+The maintainer will review your contribution and may request adjustments during the review.
 
-Thank you for helping this project grow!
+¡Gracias por hacer crecer este proyecto — thank you!
